@@ -81,9 +81,11 @@ img{
     
 }
 .img{
-   padding-top:3%;
-   padding-right: 0%;
-   padding-left: 20px;
+    padding-top: 3%;
+    padding-right: 0%;
+    padding-left: 20px;
     width: 100%;
-    height: 70%;
+    height: auto; /* Permet à l'image de redimensionner proportionnellement */
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    overflow: hidden; /* Cela évitera que l'image dépasse la hauteur définie */
 }
