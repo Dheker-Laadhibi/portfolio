@@ -1,1 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+/* css reset*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*The scroll-behavior property specifies whether to smoothly animate the scroll position, 
+    instead of a straight jump*/
+    scroll-behavior: smooth; 
+
+
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    /* z index made nav visible when i srcoll*/
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 200px;
+}
+/* updating the logo Dheker*/
+.logo{
+
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    /*Bold*/
+    font-weight: 700;
+    /*relative to body default  font which is em*/
+    font-size: 1.8em;
+}
+.navigation a {
+   color: #3a6cf4; 
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight:500 ;
+ padding-left: 30px;
+
+
+}
+.navigation a:hover{
+    color:#601cfc ;
+}
