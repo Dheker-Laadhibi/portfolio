@@ -48,3 +48,42 @@ header{
 .navigation a:hover{
     color:#601cfc ;
 }
+
+.section{
+
+padding: 100px 200px;
+display: flex;
+justify-content: space-between;
+background-color: #3a6cf4;
+background-position: center;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+
+    /* vh = viewport  1vh = 1% of viewport height.  The viewport is the visible portion of a web page within the browser window.*/
+
+    /*"vh" units can be particularly useful for creating layouts that adapt well to different screen sizes, such as in responsive web design. Here are some reasons why "vh" units are used:/
+    min-height: 100vh;*/
+ padding-top: 25%;
+    display: flex;
+    flex-direction: column; /* Ajout de cette ligne pour empiler les éléments verticalement */
+   
+
+   /*  background:url(dhker.jpg) no-repeat;
+    background-size: cover; */
+  
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+}
+.img{
+   padding-top:3%;
+   padding-right: 0%;
+   padding-left: 20px;
+    width: 100%;
+    height: 70%;
+}
