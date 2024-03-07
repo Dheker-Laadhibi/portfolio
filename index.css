@@ -45,7 +45,7 @@
      }
      
      .navigation a:hover{
-         color: #601cfc;
+         color: #3a6cf4;
      }
      
      section {
@@ -68,4 +68,60 @@
          background-position: center;
          background-attachment: fixed;
      }
-     
+     .main h2{
+
+        color: #fff;
+        font-size: 1.4em;
+        font-weight: 500;
+     }
+     /*span is an inline element*/
+     .main h2 span{
+        color: #3a6cf4;
+        font-weight: 600;
+        font-size: 3em;
+        display: inline-block;
+        margin-top: 5px;
+     }
+     .main h3{
+        color: #fff;
+        font-weight: 700;
+        font-size: 2em;
+        /* spacing between caracters*/
+        letter-spacing: 1px;
+        margin-top: 3px;
+        margin-bottom: 30px;
+     }
+     /*anchor tag is also an inline block cant give it directly margin or padding*/
+     .main-btn{
+        text-decoration: none;
+        background-color: #3a6cf4;
+        font-size: 1.1em;
+        color: #fff;
+        font-weight: 600;
+     display: inline-block;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        /*15.6 px*/
+        padding: 0.975em   2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+     }
+     .main-btn:hover{
+        color: #601cfc;
+        /*     it increases the size of the element by 10% compared to its original size  */
+    transform: scale(1.1); 
+    
+    
+
+
+
+    /*any change in the properties of that element will take 0.7 seconds to complete, and the transition will have a smooth easing effect.
+
+*/
+    transition: 0.7s ease;
+    }
+     .social-icons{
+        display: flex;
+     padding-right: 2em;
+     }
