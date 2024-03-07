@@ -190,18 +190,16 @@
 
 
         }
-        .project-card{
-
-         background-color:#fff ;
-         border: 1px solid white;
-         /*a9al haja*/
+        .project-card {
+         background-color: #fff;
+         border: 1px solid #fff;
          min-height: 14em;
-      border-radius: 10px;
-         margin: 20px;
+         width: 20em;
          overflow: hidden;
+         border-radius: 10px;
+         margin: 20px;
          transition: 0.7s ease;
-        width: 23em; 
-        }
+     }
  .project-card:hover{
          transform: scale(1.1);
         }
@@ -216,7 +214,10 @@
         .project-info{
          padding: 1em;
         }
-
+        .project-info {
+         padding: 1em;
+     }
+     
 .product-category{
    font-size: 0.8em;
    color: #601cfc;
@@ -224,5 +225,11 @@
 .project-title{
    display: flex;
    justify-content: space-between;
-
+text-transform: uppercase;
+font-weight: 800;
+margin-top:10 px;
+}
+.more-details{
+   text-decoration: none;
+   color: #3a6cf4;
 }
