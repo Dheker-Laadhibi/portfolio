@@ -119,9 +119,14 @@
     /*any change in the properties of that element will take 0.7 seconds to complete, and the transition will have a smooth easing effect.
 
 */
-    transition: 0.7s ease;
+    transition: 0.8s ease;
     }
      .social-icons{
-        display: flex;
-     padding-right: 2em;
+        color:#fff;
+        font-size: 1.7em ;
+
+     
+     }
+     .social-icons a {
+        margin-right: 30px;
      }
