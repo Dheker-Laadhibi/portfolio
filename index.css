@@ -1,91 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+     /* overflow Cela évitera que l'image dépasse la hauteur définie */
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* css reset*/
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*The scroll-behavior property specifies whether to smoothly animate the scroll position, 
+     *{
+         font-family: 'Poppins', sans-serif;
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         scroll-behavior: smooth; 
+            /*The scroll-behavior property specifies whether to smoothly animate the scroll position, 
     instead of a straight jump*/
-    scroll-behavior: smooth; 
 
+     }
+     
+     
+     header {
+         background-color: #f0f0f0;
+         width: 100%;
+         position: fixed;
+             /* z index made nav visible when i srcoll*/
+         z-index: 999;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 200px ;
+     }
+     /* updating the logo Dheker*/
+     .logo{
+         text-decoration: none;
+         color: #3a6cf4;
+         text-transform: uppercase;
+             /*Bold*/
+         font-weight: 700;
+         font-size: 1.8em;
+     }
+     
+     .navigation a{
+         color: #3a6cf4;
+         text-decoration: none;
+         font-size: 1.1em;
+         font-weight: 500;
+         padding-left: 30px;
+     }
+     
+     .navigation a:hover{
+         color: #601cfc;
+     }
+     
+     section {
+         padding: 100px 200px;
+     }
+     
+     .main {
+         width: 100%;
 
-}
-header{
-    background-color: #f0f0f0;
-    width: 100%;
-    position: fixed;
-    /* z index made nav visible when i srcoll*/
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 10px 200px;
-}
-/* updating the logo Dheker*/
-.logo{
-
-    text-decoration: none;
-    color: #3a6cf4;
-    text-transform: uppercase;
-    /*Bold*/
-    font-weight: 700;
-    /*relative to body default  font which is em*/
-    font-size: 1.8em;
-}
-.navigation a {
-   color: #3a6cf4; 
-   text-decoration: none;
-   font-size: 1.1em;
-   font-weight:500 ;
- padding-left: 30px;
-
-
-}
-.navigation a:hover{
-    color:#601cfc ;
-}
-
-.section{
-
-padding: 100px 200px;
-display: flex;
-justify-content: space-between;
-background-color: #3a6cf4;
-background-position: center;
-
-}
-.main{
-    width: 100%;
-    min-height: 100vh;
-
-    /* vh = viewport  1vh = 1% of viewport height.  The viewport is the visible portion of a web page within the browser window.*/
+          /* vh = viewport  1vh = 1% of viewport height.  The viewport is the visible portion of a web page within the browser window.*/
 
     /*"vh" units can be particularly useful for creating layouts that adapt well to different screen sizes, such as in responsive web design. Here are some reasons why "vh" units are used:/
     min-height: 100vh;*/
- padding-top: 25%;
-    display: flex;
-    flex-direction: column; /* Ajout de cette ligne pour empiler les éléments verticalement */
-   
 
-   /*  background:url(dhker.jpg) no-repeat;
-    background-size: cover; */
-  
-}
-img{
-    height: 100%;
-    width: 100%;
-    
-}
-.img{
-    padding-top: 3%;
-    padding-right: 0%;
-    padding-left: 20px;
-    width: 100%;
-    height: auto; /* Permet à l'image de redimensionner proportionnellement */
-    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
-    overflow: hidden; /* Cela évitera que l'image dépasse la hauteur définie */
-}
+         min-height: 100vh;
+         display: flex;
+         align-items: center;
+         background: url(images/background.jpeg) no-repeat;
+         background-size: cover;
+         background-position: center;
+         background-attachment: fixed;
+     }
+     
