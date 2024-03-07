@@ -130,3 +130,54 @@
      .social-icons a {
         margin-right: 30px;
      }
+     /* h2 block element so i can set a height */
+     .title{
+
+     display: flex;
+     justify-content: center;
+     color: #3a6cf4;
+     font-size: 2.2em ;
+     font-weight: 800;
+     margin-bottom: 30px;
+
+     }
+     .content{
+        display: flex;
+        justify-content:center ;
+        flex-direction: row;
+        flex-wrap: wrap;
+         }
+         .card{
+            background-color: #fff;
+            width:21.25em ;
+            /* will create a shadow that is directly below the element, 5 pixels below it, with a blur radius of 25 pixels*/
+
+
+            /* 15 opacity*/
+            box-shadow: 0 5px 25px rgba(1 1  1 / 15% );
+            border-radius: 10px;
+            padding: 25px;
+            margin: 15px;
+            
+         } 
+         .card:hover{
+            transform: scale(1.1);
+            transition: 0.7s ease;
+         }
+         .icon{
+         color: #3a6cf4;  
+         font-size:8em ; 
+         /*center the text or icon*/
+         text-align: center;
+
+         }
+         .info h3{
+            color: #3a6cf4;
+            font-size: 1.3em;
+            font-weight: 700;
+            margin:10px;
+           
+         }
+         .info{
+            text-align: center;
+         }
