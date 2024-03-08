@@ -233,3 +233,16 @@ margin-top:10 px;
    text-decoration: none;
    color: #3a6cf4;
 }
+.contact .icon{
+
+font-size: 4.5em;
+   
+}
+.contact h3{
+   color: black;
+}
+.contact .info p{
+   font-size: 1.5em;
+   font-weight: 400;
+   font-family: sans-serif;
+}
