@@ -296,6 +296,7 @@ font-size: 4.5em;
 @media (max-width:641px){
     body{
         font-size: 12px;
+        /*1 em = 12 px*/
     }
 
     .main-content h2{
@@ -310,6 +311,7 @@ font-size: 4.5em;
 @media (max-width:300px){
     body{
         font-size: 10px;
+        /*1 em = 10 px*/
      
     }
 }
